@@ -1,0 +1,171 @@
+* {
+    margin:0;
+    padding: 0;
+    scrollbar-width: none;
+}
+
+body {  
+    background-color: rgb(60, 60, 60);
+    padding-top: 50px;
+    color: whitesmoke;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.inisob {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.imginisob {
+    width: 720px;
+    height: 405px;
+    border: 5px solid rgb(75, 27, 0);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); 
+    margin: 20px; 
+    background-color: white; 
+}
+
+h1 {
+    text-align: center;
+}
+
+.textinto {
+    text-align: center;
+    width: 1400px;
+    height: 270px;
+    border-radius: 20px ;
+    background: #333;
+}
+
+.textanti {
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: whitesmoke;
+    text-align: center;
+    
+}
+ 
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h2 {
+    color: #000000;
+}
+
+.card p {
+    color: #000000;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    color: white;
+    background-color: #2b6eff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #115fd4;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal .conteudo {
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    background-color: white;
+    color: #333;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    font-size: 25px;
+}
+
+.modal .fecharModal {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #333;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.modal .fecharModal:hover {
+    color: crimson;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
