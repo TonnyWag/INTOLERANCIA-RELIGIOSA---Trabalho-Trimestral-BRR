@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre - Intolerancia Religiosa</title>
+    <title>Intolerância Religiosa</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="estilosobre.css">
 </head>
@@ -13,24 +13,25 @@
 
   <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="INDEX.HTML">✞</a>
+        <a class="navbar-brand" href="index.html">✞</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="INDEX.HTML">Inicio</a>
+              <a class="nav-link" aria-current="page" href="index.html">Religiões</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="Sobre.html">Religiões</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="colaboradores.html">Colaboradores</a>
+              <a class="nav-link active" aria-current="page" href="Sobre.html">Intolerância Religiosa</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="video.html">Entrevista</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="colaboradores.html">Colaboradores</a>
+            </li>
+
         </ul>
       </div>
     </div>
@@ -43,7 +44,7 @@
 <center>
 <div class="textinto">
   <br>
-  <h1>O que é Intolerancia Religiosa?</h1>
+  <h1>O que é Intolerância Religiosa?</h1>
   <br>
   <p class="textanti">
     <h3 class="textanti">A intolerância religiosa é o desrespeito ao direito das pessoas de manterem as suas crenças religiosas. Podemos considerar como atos intolerantes as ofensas pessoais por conta da religião ou as ofensas contra liturgias, cultos e outras religiões. Ações desse tipo, em suas formas mais graves, podem resultar em violência, como agressões físicas e depredação de templos.
@@ -57,26 +58,25 @@
 
 <!---------------------------------- CARD-1 ------------------------------>
 
+<script src="card.js"></script>
+
 <div class="card-container">
   <div class="card">
     <img src="img/cristianismointo.jpg" alt="">
     <br>
-      <h2>✝️ Cristianismo</h2>
-      <p>Descrição sobre a intolerância religosa. 1</p>
+      <h2>Cristianismo</h2>
       <button class="button" onclick="openModal('modal1')">Saiba Mais</button>
   </div>
   <div class="card">
     <img src="img/judeus.png" alt="">
     <br>
-      <h2>✡ Judaismo</h2>
-      <p>Descrição sobre a intolerância religosa. 2</p>
+      <h2>Judaismo</h2>
       <button class="button" onclick="openModal('modal2')">Saiba Mais</button>
   </div>
   <div class="card">
     <img src="img/buda.jpg" alt="">
     <br>
-      <h2>☸️ Budismo</h2>
-      <p>Descrição sobre a intolerância religosa. 3</p>
+      <h2>Budismo</h2>
       <button class="button" onclick="openModal('modal3')">Saiba Mais</button>
   </div>
 </div>
@@ -85,7 +85,7 @@
 <div class="modal" id="modal1">
   <div class="conteudo">
       <button class="fecharModal" onclick="closeModal('modal1')">&times;</button>
-      <h2>Cristianismo</h2>
+      <h2 class="textso">Cristianismo</h2>
       <p>O preconceito contra cristãos, ou cristofobia, inclui discriminação social, restrições legais,
          violência e exclusão cultural. Em alguns países, cristãos enfrentam perseguição severa, com violência física e restrições à liberdade religiosa.
           Em contextos seculares, cristãos podem sofrer estigmatização por suas crenças em questões morais e culturais.
@@ -117,22 +117,21 @@
   <div class="card">
     <img src="img/hindu.png" alt="">
     <br>
-      <h2>🕉️ Hinduismo</h2>
-      <p>Descrição sobre a intolerância religosa. 1</p>
+      <h2>Hinduismo</h2>
       <button class="button" onclick="openModal('modal4')">Saiba Mais</button>
   </div>
   <div class="card">
     <img src="img/ubanda.png" alt="">
     <br>
-      <h2>🏹 Umbanda</h2>
-      <p>Descrição sobre a intolerância religosa. 2</p>
+    <br>
+    <br>
+      <h2>Umbanda</h2>
       <button class="button" onclick="openModal('modal5')">Saiba Mais</button>
   </div>
   <div class="card">
     <img src="img/Logun.png" alt="">
     <br>
-      <h2>👳🏿 Camdoble</h2>
-      <p>Descrição sobre a intolerância religosa. 3</p>
+      <h2>Candomblé</h2>
       <button class="button" onclick="openModal('modal6')">Saiba Mais</button>
   </div>
 </div>
@@ -163,7 +162,7 @@
 <div class="modal" id="modal6">
   <div class="conteudo">
       <button class="fecharModal" onclick="closeModal('modal6')">&times;</button>
-      <h2>Camdoble</h2>
+      <h2>Candomblé</h2>
       <p>Os candomblecistas enfrentam preconceitos que incluem intolerância religiosa, estigmatização e exclusão social. Muitas vezes, 
         sua fé é demonizada e seus rituais são alvo de ataques e vandalismo. A falta de compreensão sobre a religião resulta em estereótipos negativos, 
         levando muitos a ocultarem suas crenças. Além disso, há restrições à prática religiosa, dificultando a construção de terreiros e a realização de rituais.
@@ -178,7 +177,6 @@
     <img src="img/ateulogo(1).png" alt="">
     <br>
       <h2>Ateísmo</h2>
-      <p>Descrição sobre a intolerância religosa. 1</p>
       <button class="button" onclick="openModal('modal7')">Saiba Mais</button>
   </div>
 
@@ -195,14 +193,6 @@
 </div>
 
 
-<script>
-  function openModal(modalId) {
-      document.getElementById(modalId).style.display = 'flex';
-  }
 
-  function closeModal(modalId) {
-      document.getElementById(modalId).style.display = 'none';
-  }
-</script>
 </body>
 </html>

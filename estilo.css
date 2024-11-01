@@ -159,9 +159,63 @@ body {
     border-radius: 11px;
 }
 
-/* SOBRE */
+@media (max-width:1300px) {
+    .criatianismo {
+        font-size: 23px;
+    }
+    .jesusimg {
+        width: 350px;
+        height: 350px;
+    }
 
+    .judaismo {
+        font-size: 23px;
+    }
+    .judaismoimg {
+        width: 350px;
+        height: 350px;
+    }
 
+    .budismo {
+        font-size: 23px;
+    }
+    .budismoimg {
+        width: 350px;
+        height: 350px;
+    }
+
+    .induismo {
+        font-size: 23px;
+    }
+    .induismoimg {
+        width: 350px;
+        height: 350px;
+    }
+
+    .umbanda {
+        font-size: 23px;
+    }
+    .umbandaimg {
+        width: 350px;
+        height: 350px;
+    }
+
+    .camdoble {
+        font-size: 23px;
+    }    
+    .camdobleimg {
+        width: 350px;
+        height: 350px;
+    }
+
+    .ateu {
+        font-size: 23px;
+    }
+    .ateuimg {
+        width: 350px;
+        height: 350px;
+    }
+}
 
 
 
@@ -210,7 +264,7 @@ JOÃO-
 
 .imgintro {
     width: 100%;
-    height: 200px;
+    height: 150px;
     background-color: black;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -254,11 +308,21 @@ JOÃO-
     width: 100%;
     height: 100%;
     border: 5px solid black;
-    border-radius: 10px;
+    border-radius: 100px;
     display: flex;
 }
 
 .turmainfo {
     text-align: center;
     color: white;
+}
+
+
+
+
+@media (max-width:1300px) {
+    .imgintro {
+        width: 100%;
+        height: 150px;
+    }
 }
